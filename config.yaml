@@ -5,11 +5,12 @@ dns:
   - https+local://8.8.8.8/dns-query
 inbounds:
 - port: 8080
-  protocol: vless
+  protocol: vmess
   settings:
     clients:
-    - id: "384d0bd2-28aa-4a0b-9518-0926818c2868"
+    - id: "de04add9-5c68-8bab-950c-08cd5320df18"
     decryption: "none"
+    alterId: 0
   streamSettings:
     network: ws
     wsSettings:
